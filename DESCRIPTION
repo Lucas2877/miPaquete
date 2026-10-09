@@ -1,9 +1,10 @@
 Package: miPaquete
-Title: What the Package Does (One Line, Title Case)
+Title: Paquete de Prueba para Aprender a Desarrollar Paquetes
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Lucas", "Bruno", , "lmbruno@mail.austral.edu.ar", role = c("aut", "cre"))
+Description: Mi paquete es un paquete de prueba de ejemplo para aprender
+  a desarrollar paquetes de R.No está pensado para ser instalado y no garantizamos que funciones
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Config/roxygen2/version: 8.1.0

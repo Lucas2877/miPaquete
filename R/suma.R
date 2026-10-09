@@ -22,12 +22,12 @@
 
 #Rechazar negativos:
 
-# suma <- function(x = 0, y = 0) {
-#   if (!is.numeric(x) || !is.numeric(y)) {
-#     stop("x e y deben ser numéricos")
-#   }
-#   if (x < 0 || y < 0) {
-#     return("No puedo sumar negativos")
-#   }
-#   x + y
-# }
+suma <- function(x = 0, y = 0) {
+ if (!is.numeric(x) || !is.numeric(y)) {
+   stop("x e y deben ser numéricos")
+   }
+ if (x < 0 || y < 0) {
+    return("No puedo sumar negativos")
+ }
+ x + y
+ }
